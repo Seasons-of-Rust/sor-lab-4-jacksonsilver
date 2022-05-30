@@ -41,15 +41,14 @@ impl Shop {
                 FightResult::Draw => {}
             }
         }
-        
+
         match win_count_self > win_count_other {
             true => FightResult::Win,
             false => match win_count_self >= win_count_other {
                 true => FightResult::Tie,
                 false => FightResult::Loss,
-            }
+            },
         }
-        
     }
 }
 

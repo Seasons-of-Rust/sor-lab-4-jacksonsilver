@@ -17,7 +17,6 @@ impl Card {
             (true, false) => FightResult::Loss,
             (false, false) => FightResult::Draw,
         }
-
     }
 
     /// Give a play by play of the battle

@@ -10,7 +10,10 @@ mod shop;
 mod strings;
 
 pub enum FightResult {
-    Win, Loss, Tie, Draw,
+    Win,
+    Loss,
+    Tie,
+    Draw,
 }
 
 fn main() {
